@@ -1,10 +1,6 @@
-Sure, here's a basic README template for your Laravel project:
-
----
-
 # Mwarimu AI Project
 
-Mwarimu AI is an educational project that utilizes AI technologies such as Synthesia and ChatGPT to create educational videos where an AI-powered character teaches various subjects. This README provides an overview of the project structure, setup instructions, and usage guidelines.
+Mwarimu AI is an educational project developed by Gahima Aristote (username: aristote-code), aiming to revolutionize the teaching experience by leveraging artificial intelligence. This project utilizes Laravel, a powerful PHP framework, for both backend and frontend development.
 
 ## Table of Contents
 
@@ -12,19 +8,16 @@ Mwarimu AI is an educational project that utilizes AI technologies such as Synth
 - [Features](#features)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Configuration](#configuration)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 
 ## Introduction
 
-Mwarimu AI aims to revolutionize the teaching experience by leveraging artificial intelligence. It combines the capabilities of Synthesia for generating AI-powered video content and ChatGPT for providing educational information. The backend of the project is built using Laravel, a powerful PHP framework.
+Mwarimu AI project intends to provide an innovative approach to education by integrating AI technologies for educational purposes. Laravel is used both for the backend API development and frontend templating to create a seamless educational platform.
 
 ## Features
 
-- Integration with Synthesia API for video generation.
-- Integration with ChatGPT API for educational content.
 - User authentication and authorization.
 - CRUD operations for managing educational content.
 - User-friendly interface for content creation and management.
@@ -94,35 +87,26 @@ DB_PASSWORD=your_password
 php artisan migrate --seed
 ```
 
-## Configuration
-
-- Configure your Synthesia and ChatGPT API credentials in the `.env` file:
-
-```
-SYNTHESIA_API_KEY=your_synthesia_api_key
-CHATGPT_API_KEY=your_chatgpt_api_key
-```
-
 ## Usage
 
-1. Start the Laravel development server:
+1. Compile frontend assets:
+
+```
+npm run dev
+```
+
+2. Start the Laravel development server:
 
 ```
 php artisan serve
 ```
 
-2. Access the application in your web browser at `http://localhost:8000`.
-
-3. Register or login to the application to start creating educational content.
+3. Access the application in your web browser at `http://localhost:8000`.
 
 ## Contributing
 
-Contributions are welcome! If you want to contribute to this project, please follow the guidelines outlined in the [CONTRIBUTING.md](CONTRIBUTING.md) file.
+Contributions are welcome! If you want to contribute to this project.
 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-You can customize this README according to your specific project requirements and provide more detailed instructions if needed.
